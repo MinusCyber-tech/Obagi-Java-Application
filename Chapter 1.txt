@@ -1,0 +1,99 @@
+Self-Review Exercises
+1.1 Fill in the blanks
+a)  programs.
+b)  input unit, output unit, memory unit, arithmetic and logic unit (ALU), central processing unit (CPU), and secondary storage unit.
+c) machine language, assembly language, and high-level language.
+d) compilers.
+e) operating system for mobile devices based on the Linux kernel and Java.
+f) Stable 
+g)  accelerometer
+
+1.2 Fill in the blanks
+a) java
+b)  javac 
+c) .java 
+d) .class 
+e)  bytecodes 
+
+1.3 Fill in the blanks
+a)  encapsulation
+b) classes
+c)  object-oriented analysis and design (OOAD).
+d)  inheritance
+e) Unified Modeling Language (UML) 
+f)  object are considered attributes 
+
+Exercises
+1.4 Fill in the blanks
+a)  input unit.
+b)  programming.
+c) Assembly language 
+d) Output unit 
+e) Primary storage (RAM) and secondary storage (hard disk, SSD) 
+f) Arithmetic and logic unit (ALU) is 
+g) Control unit 
+h) High-level 
+i) machine language.
+j) Control unit 
+
+1.5 Fill in the blanks
+a) Java
+b) C 
+c) The Transmission Control Protocol (TCP) 
+d) C++ programming language 
+
+1.6 Fill in the blanks
+a)  edit, compile, load, verify, and execute.
+b) integrated development environment (IDE)
+c)  Java Virtual Machine (JVM)
+d) virtual machine 
+e) class loader 
+f)  bytecode 
+
+1.7 Two Compilation Phases in Java
+Compilation Phase: The Java compiler (javac) translates the source code (.java file) into bytecode (.class file).
+Execution Phase: The Java Virtual Machine (java command) loads and executes the bytecode.
+
+1.8 Object-Oriented Concepts Applied to a Watch
+Object: A watch is an object.
+Attributes: Size, color, weight, brand, battery life, etc.
+Behaviors: Showing time, setting an alarm, stopwatch function.
+Class: "Watch" is a class, and different brands/models are objects of this class.
+Inheritance: An alarm clock inherits features from a basic watch and adds an alarm function.
+Modeling: A watch can be modeled in a software system with appropriate attributes and behaviors.
+Messages: A watch receives a message when the user presses a button to adjust time.
+Encapsulation: The internal mechanism of timekeeping is hidden from the user.
+Interface: Buttons and screen allow interaction with the user.
+Information Hiding: The user doesn't need to know how the watch's quartz oscillator works, only how to read the time.
+Making a Difference
+
+1.9 Carbon Footprint Calculator
+Research online resources like TerraPass to learn about carbon footprint formulas.
+This knowledge will be used to create a Java program that calculates carbon footprints based on energy consumption and travel habits.
+
+1.10 BMI Calculator
+Use the Body Mass Index (BMI) formula:
+𝐵
+𝑀
+𝐼
+=
+weight (kg)
+height (m)
+2
+BMI= 
+height (m) 
+2
+weight (kg)
+A future Java program will use this formula to calculate BMI based on user input.
+
+1.11 Attributes of Hybrid Vehicles
+Examples:  Tesla Model 3, Honda Insight, Ford Fusion Hybrid.
+Attributes: Battery type, capacity, fuel efficiency (mpg), electric range, charging time.
+
+1.12 Gender Neutrality
+A program would:
+Read text input.
+Identify gendered words using a dictionary mapping (e.g., "husband" → "spouse").
+Replace them with gender-neutral terms.
+Edge case: Words may partially overlap (e.g., "man" in "woman"), causing unintended changes.
+Solution: Use regex or dictionary-based word replacement

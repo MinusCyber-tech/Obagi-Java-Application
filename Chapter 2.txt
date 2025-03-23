@@ -1,0 +1,139 @@
+2.1 Fill in the blanks
+a) A(n) { begins the body of every method, and a(n) } ends the body of every method.
+b) You can use the if statement to make decisions.
+c) // begins an end-of-line comment.
+d) Space, tab, and newline are called white space.
+e) Keywords are reserved for use by Java.
+f) Java applications begin execution at method main.
+g) Methods System.out.println, System.out.print, and System.out.printf display information in a command window.
+
+2.2 True or False
+a) False – Comments are ignored by the compiler and do not affect program execution.
+b) True – All variables must have a type declaration.
+c) False – Java is case-sensitive, so number and NuMbEr are different variables.
+d) False – The remainder operator % can be used with both integer and floating-point operands.
+e) False – The operators *, /, and % have higher precedence than + and -.
+
+2.3 Java Statements
+a) int c, thisIsAVariable, q76354, number;
+b) System.out.print("Enter an integer: ");
+c) int value = input.nextInt();
+d) System.out.println("This is a Java program");
+e) System.out.printf("This is a%nJava program%n");
+f) if (number != 7) System.out.println("The variable number is not equal to 7");
+
+2.4 Identify and Correct Errors
+a) Incorrect: if (c < 7); System.out.println("c is less than 7");
+
+Correction: Remove the semicolon after if:
+
+java
+Copy code
+if (c < 7) System.out.println("c is less than 7");
+b) Incorrect: if (c => 7) System.out.println("c is equal to or greater than 7");
+
+Correction: Change => to >=:
+
+java
+Copy code
+if (c >= 7) System.out.println("c is equal to or greater than 7");
+2.5 Java Statements
+a) // This program calculates the product of three integers
+b) Scanner input = new Scanner(System.in);
+c) int x, y, z, result;
+d) System.out.print("Enter the first integer: ");
+e) x = input.nextInt();
+f) System.out.print("Enter the second integer: ");
+g) y = input.nextInt();
+h) System.out.print("Enter the third integer: ");
+i) z = input.nextInt();
+j) result = x * y * z;
+k) System.out.printf("Product is %d%n", result);
+
+2.6 Complete Program
+java
+Copy code
+import java.util.Scanner;
+
+public class ProductCalculator {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the first integer: ");
+        int x = input.nextInt();
+
+        System.out.print("Enter the second integer: ");
+        int y = input.nextInt();
+
+        System.out.print("Enter the third integer: ");
+        int z = input.nextInt();
+
+        int result = x * y * z;
+
+        System.out.printf("Product is %d%n", result);
+    }
+}
+Exercises
+2.7 Fill in the blanks
+a) Comments are used to document a program and improve its readability.
+b) A decision can be made in a Java program with a(n) if statement.
+c) Calculations are normally performed by arithmetic statements.
+d) The arithmetic operators with the same precedence as multiplication are division (/) and modulus (%).
+e) When parentheses in an arithmetic expression are nested, the innermost set of parentheses is evaluated first.
+f) A location in the computer’s memory that may contain different values at various times throughout the execution of a program is called a(n) variable.
+
+2.8 Java Statements
+a) System.out.print("Enter an integer: ");
+b) a = b * c;
+c) // This program performs a sample payroll calculation
+
+2.9 True or False
+a) False – Operators are evaluated based on precedence, not always from left to right.
+b) True – The listed variable names are valid.
+c) False – Operator precedence affects evaluation order.
+d) True – Variable names cannot start with a number.
+
+2.10 Output of Statements
+java
+Copy code
+x = 2;
+y = 3;
+System.out.printf("x = %d%n", x); // Output: x = 2
+System.out.printf("Value of %d + %d is %d%n", x, x, (x + x)); // Output: Value of 2 + 2 is 4
+System.out.printf("x ="); // Output: x =
+System.out.printf("%d = %d%n", (x + y), (y + x)); // Output: 5 = 5
+2.11 Modified Variables
+Modified variables are found in:
+a) p = i + j + k + 7;
+d) value = input.nextInt();
+
+2.12 Correct Java Statements for y = ax³ + 7
+Correct options:
+a) y = a * x * x * x + 7;
+d) y = (a * x) * x * x + 7;
+e) y = a * (x * x * x) + 7;
+
+2.13 Order of Evaluation
+a) x = 7 + 3 * 6 / 2 - 1; → x = 7 + 18 / 2 - 1; → x = 7 + 9 - 1; → x = 15
+b) x = 2 % 2 + 2 * 2 - 2 / 2; → x = 0 + 4 - 1; → x = 3
+c) x = (3 * 9 * (3 + (9 * 3 / 3))); → x = 3 * 9 * (3 + 9); → x = 3 * 9 * 12; → x = 324
+
+2.14 Displaying Numbers
+a) System.out.println("1 2 3 4");
+b)
+
+java
+Copy code
+System.out.print("1 ");
+System.out.print("2 ");
+System.out.print("3 ");
+System.out.print("4 ");
+c) System.out.printf("%d %d %d %d%n", 1, 2, 3, 4);
+
+2.15 Arithmetic Program
+java
+Copy code
+Scanner input = new Scanner(System.in);
+int a = input.nextInt();
+int b = input.nextInt();
+System.out.printf("Sum: %d%nProduct: %d%nDifference: %d%nQuotient: %d%n", (a+b), (a*b), (a-b), (a/b));
